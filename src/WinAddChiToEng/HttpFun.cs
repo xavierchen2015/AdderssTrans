@@ -23,7 +23,7 @@
         {
             try
             {
-                string url = "http://www.post.gov.tw/post/internet/Postal/index.jsp?ID=207"; 
+                string url = "http://www.post.gov.tw/post/internet/Postal/index.jsp?ID=207";  
                 HttpWebRequest request = HttpWebRequest.Create(url) as HttpWebRequest;
                 string result = null;
                 request.Method = "POST";
