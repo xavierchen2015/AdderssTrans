@@ -1,0 +1,53 @@
+<StyleCopSettings Version="105">
+<SourceFileList>
+    <SourceFile>Form1.cs</SourceFile>
+	<SourceFile>Form1.Designer.cs</SourceFile>
+	<SourceFile>Program.cs</SourceFile>
+    <Settings>
+    <GlobalSettings>
+      <BooleanProperty Name="RulesEnabledByDefault">False</BooleanProperty>
+    </GlobalSettings>
+    </Settings>
+  </SourceFileList>
+<GlobalSettings>
+	<StringProperty Name="Culture">zh-TW</StringProperty>
+</GlobalSettings>
+  <Parsers>
+    <Parser ParserId="StyleCop.CSharp.CsParser">
+      <ParserSettings>
+        <CollectionProperty Name="GeneratedFileFilters">
+		  <Value>.*\\Migrations\\.*</Value>
+        </CollectionProperty>
+      </ParserSettings>
+    </Parser>
+  </Parsers>
+  <Analyzers>
+  <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <AnalyzerSettings>
+        <CollectionProperty Name="Hungarian">
+          <Value>as</Value>
+          <Value>do</Value>
+          <Value>vStr</Value>
+          <Value>d</Value>
+          <Value>b</Value>
+          <Value>V</Value>
+          <Value>j</Value>
+          <Value>i</Value>
+          <Value>o</Value>
+          <Value>v</Value>
+          <Value>n</Value>
+        </CollectionProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <Rules>
+        <Rule Name="ElementMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
